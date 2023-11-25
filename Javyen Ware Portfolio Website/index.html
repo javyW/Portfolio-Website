@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javyen Ware's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src ="server.js"></script>
+</head>
+<body>
+  <section class="hidden">
+  <div class="container">
+    <header>
+      <div class="intro">
+        <h1>Javyen's Portfolio Website</h1>
+        <p>An Aspiring Frontend Web Developer</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href=#certifications>Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="about" class="about">
+      <br>
+      <br>
+      <h2>About Me</h2>
+      <center><img src="img/javypic.jpeg" alt="pic of Javyen Ware" class="jwp"></center>
+
+      <!-- jip = javyens intro paragraph-->
+
+      <div class="jip">
+        <p1>Hello there, my Name is Javyen D. Ware. I am an aspiring self taught frontend web Developer. 
+          I have strong and Proficient experience and knowledge in HTML, CSS, and Python. I also have 
+          experience with Wordpress and Javascript. 
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project" onclick="openModal('Project 2', 'Description of Project 2.')">
+        <img src="" alt="" class="proj2">
+       <small><h5></h5></small>
+      </div>
+      <div class="project" onclick="openModal('Project 1', 'Description of Project 1.')">
+        <img src="" alt="">
+      </div>
+    </section>
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <br>
+      <div class="certifications" onclick="openModal('freeCodeCamp Responsive Web Design Certificate', '')">
+        <center><img src="img/fCCcertif.jpg" alt="freeCodeCamp Certification" class="CER1"></center>
+      </div>
+      <div class="certifications" onclick="openModal('freeCodeCamp Scientific Computing With Python Certificate', '')">
+        <center><img src="img/fCCPythonCertif.png" alt="freeCodeCamp Certification" class="CER2"></center>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Links</h2>
+      <center><a href="mailto:warejavyen@gmail.com">warejavyen@gmail.com</a></center>
+      <center><a href="https://www.linkedin.com/in/javyen-ware-1a292128b/">My Linkedin</a></center>
+      <center><a href="https://github.com/javyW">My Github</a></center>
+
+    </section>  
+  </div> 
+
+  <footer>
+    <center><h7>&copy; Javyen David Ware. All rights reserved.</h7></center>
+  </footer>
+</section>
+</body>
+</html>
